@@ -1,4 +1,4 @@
----
+contract---
 eip: 55
 title: Mixed-case checksum address encoding
 author: Vitalik Buterin <vitalik.buterin@ethereum.org>, Alex Van de Sande <avsa@ethereum.org>
