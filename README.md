@@ -1,3 +1,11 @@
+message TransactionResponse {
+  oneof transaction {
+    TonTransaction ton = 607;
+  }
+}
+
+service TransactionBuilderGrpc {
+  rpc BuildTransfer (BuildTransferRequest) returns (TransactionResponse){}
 # Ethereum Request for Comments (ERCs)
 
 *Please note that ERCs were recently separated from the [EIPs](https://github.com/ethereum/eips) repo.*
