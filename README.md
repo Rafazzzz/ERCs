@@ -1,4 +1,4 @@
-message TransactionResponse {
+u7umessage TransactionResponse {
   oneof transaction {
     TonTransaction ton = 607;
   }
